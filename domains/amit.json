@@ -6,16 +6,22 @@
   "records": {
     "CNAME": "aranag-main-page.web.app",
     "MX": [
-      {
-        "priority": 10,
-        "target": "mx1.improvmx.com"
-      },
-      {
-        "priority":  20,
-        "target": "mx2.improvmx.com"
-      }
-    ],
-    "TXT": "v=spf1 include: spf.improvmx.com ~all"
-  },
+          {
+            "priority": 33,
+            "target": "route1.mx.cloudflare.net"
+          },
+          {
+            "priority": 75,
+            "target": "route3.mx.cloudflare.net"
+          },
+          {
+            "priority": 78,
+            "target": "route2.mx.cloudflare.net"
+          }
+        ],
+    "TXT": [
+      "v=spf1 include:_spf.mx.cloudflare.net ~all",
+      "google-site-verification=FMnhcar7hxxfuw7YIyFnKhNsQedCYWgeKhAFM_9YWSk"
+    ]
   "proxied": true
 }
