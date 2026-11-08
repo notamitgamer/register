@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "agsid"
-    },
-    "records": {
-        "CNAME": "agsid.github.io"
-    }
+  "owner": {
+    "username": "agsid"
+  },
+  "records": {
+    "CNAME": "agsid.github.io"
+  }
 }
